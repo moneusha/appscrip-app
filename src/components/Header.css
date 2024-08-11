@@ -1,0 +1,156 @@
+/* Header.css */
+
+.page{
+    background-color: #ffff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 100vw;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eaeaea;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image-size{
+    width:30px;
+}
+
+.heading-pro{
+    color: #3477e3;
+}
+.header-left .logo {
+    width: 80px; /* Adjust the size of the logo as needed */
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.header-center h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+    
+    gap: 20px; /* Space between each navigation link */
+}
+
+
+    
+
+
+.header-nav ul li {
+    display: inline;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.header-nav ul li a:hover {
+    color: #007bff; /* Color change on hover */
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right i {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 100px;
+}
+
+.icons{
+    padding-left: 10px ;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.dropbtn {
+    background-color: #fff;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #eaeaea;
+}
+
+.bottom-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
